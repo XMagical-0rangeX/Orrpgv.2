@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>OrangeRPGv._1</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Assistant\EyeBo.png" />
+    <None Remove="Assets\Assistant\minion.png" />
+    <None Remove="Assets\Demon\DemonRuler.png" />
+    <None Remove="Assets\EncounterFull\CartMan.png" />
+    <None Remove="Assets\EncounterFull\HypnoCave.png" />
+    <None Remove="Assets\EncounterImg\Fight.png" />
+    <None Remove="Assets\EncounterImg\Rock.png" />
+    <None Remove="Assets\Interiors\Smithy.png" />
+    <None Remove="Assets\Interiors\WitchHut.png" />
+    <None Remove="Assets\MainChara\FinalMc.png" />
+    <None Remove="Assets\MainChara\villagemc.png" />
+    <None Remove="Assets\Mapobj\arrowred.png" />
+    <None Remove="Assets\Mapobj\arrowredyell.png" />
+    <None Remove="Assets\Mapobj\castle.png" />
+    <None Remove="Assets\Mapobj\oorrphousez.png" />
+    <None Remove="Assets\Mapobj\oorrphousezyell.png" />
+    <None Remove="Assets\Mapobj\villarge.png" />
+    <None Remove="Assets\Npc\Anvil.png" />
+    <None Remove="Assets\Npc\Smith.png" />
+    <None Remove="Assets\Npc\witchnpc.png" />
+    <None Remove="Assets\Slime\SlimeBlue.png" />
+    <None Remove="Assets\Slime\SlimeGreen.png" />
+    <None Remove="Assets\Slime\SlimeOrange.png" />
+    <None Remove="Assets\Slime\SlimePink.png" />
+    <None Remove="Assets\Slime\SlimeRed.png" />
+    <None Remove="mcv1.png" />
+    <None Remove="oorrphouse.png" />
+    <None Remove="orrpg.png" />
+    <None Remove="PAvatar.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Assistant\EyeBo.png" />
+    <Resource Include="Assets\Assistant\minion.png" />
+    <Resource Include="Assets\Demon\DemonRuler.png" />
+    <Resource Include="Assets\EncounterFull\CartMan.png" />
+    <Resource Include="Assets\EncounterFull\HypnoCave.png" />
+    <Resource Include="Assets\EncounterImg\Fight.png" />
+    <Resource Include="Assets\EncounterImg\Rock.png" />
+    <Resource Include="Assets\Interiors\Smithy.png" />
+    <Resource Include="Assets\Interiors\WitchHut.png" />
+    <Resource Include="Assets\MainChara\FinalMc.png" />
+    <Resource Include="Assets\MainChara\mapmc.png" />
+    <Resource Include="Assets\MainChara\PAvatar.png" />
+    <Resource Include="Assets\MainChara\villagemc.png" />
+    <Resource Include="Assets\Mapobj\arrowred.png" />
+    <Resource Include="Assets\Mapobj\arrowredyell.png" />
+    <Resource Include="Assets\Mapobj\castle.png" />
+    <Resource Include="Assets\Mapobj\oorrphouse.png" />
+    <Resource Include="Assets\Mapobj\oorrphousez.png" />
+    <Resource Include="Assets\Mapobj\oorrphousezyell.png" />
+    <Resource Include="Assets\Mapobj\orrpg.png" />
+    <Resource Include="Assets\Mapobj\villarge.png" />
+    <Resource Include="Assets\Npc\Anvil.png" />
+    <Resource Include="Assets\Npc\Smith.png" />
+    <Resource Include="Assets\Npc\witchnpc.png" />
+    <Resource Include="Assets\Slime\SlimeBlue.png" />
+    <Resource Include="Assets\Slime\SlimeGreen.png" />
+    <Resource Include="Assets\Slime\SlimeOrange.png" />
+    <Resource Include="Assets\Slime\SlimePink.png" />
+    <Resource Include="Assets\Slime\SlimeRed.png" />
+  </ItemGroup>
+
+</Project>
